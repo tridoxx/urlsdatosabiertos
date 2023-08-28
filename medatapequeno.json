@@ -1,0 +1,143 @@
+{
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@id": "http://medata.gov.co/data.json",
+    "@type": "dcat:Catalog",
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset": [
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "rights": "Desarrollo Economico",
+            "accrualPeriodicity": "irregular",
+            "contactPoint": {
+                "fn": "Desarrollo Economico",
+                "hasEmail": "mailto:medata@medellin.gov.co"
+            },
+            "conformsTo": "http://www.mintic.gov.co",
+            "description": "<p>Es la recopilacion de informaci\u00f3n estrat\u00e9gica sobre las atenciones realizadas en los Centros de Desarrollo Zonal en el municipio de Medell\u00edn</p>\n",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "http://medata.gov.co/sites/default/files/medata_harvest_files/intervenciones_en_centros_de_desarrollo_empresarial_zonal_cedezo.csv",
+                    "mediaType": "text/csv",
+                    "format": "csv",
+                    "title": "Intervenciones en Centros de Desarrollo Empresarial Zonal (CEDEZO)",
+                    "conformsTo": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                }
+            ],
+            "identifier": "23376",
+            "issued": "2019-08-09",
+            "keyword": [
+                "CEDEZO",
+                "Desarrollo",
+                "Emprendimiento",
+                "Empresarial",
+                "Fortalecimiento"
+            ],
+            "landingPage": "http://medata.gov.co/dataset/intervenciones-en-centros-de-desarrollo-empresarial-zonal-cedezo",
+            "language": [
+                "es-CO"
+            ],
+            "modified": "2023-08-02",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Desarrollo Econ\u00f3mico"
+            },
+            "temporal": "2019-12-31T00:00:00-05:00/2019-12-31T00:00:00-05:00",
+            "isPartOf": "Municipal",
+            "theme": [
+                "Desarrollo Econ\u00f3mico"
+            ],
+            "title": "Intervenciones en Centros de Desarrollo Empresarial Zonal (CEDEZO)"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "rights": "Secretar\u00eda de Seguridad y convivencia - Sistema de Informaci\u00f3n para la Seguridad y la Convivencia SISC",
+            "accrualPeriodicity": "irregular",
+            "contactPoint": {
+                "fn": "Secretar\u00eda de Seguridad y convivencia - Sistema de Informaci\u00f3n para la Seguridad y la Convivencia SISC",
+                "hasEmail": "mailto:medata@medellin.gov.co"
+            },
+            "conformsTo": "http://www.mintic.gov.co",
+            "description": "<p>Capturados en procedimiento de Polic\u00eda.</p>\n",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "http://medata.gov.co/sites/default/files/medata_harvest_files/conduccion_para_el_restablecimiento_de_derechos.csv",
+                    "mediaType": "text/csv",
+                    "format": "csv",
+                    "title": "Conducci\u00f3n para el restablecimiento de derechos",
+                    "conformsTo": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                }
+            ],
+            "identifier": "23476",
+            "issued": "2018-06-01",
+            "keyword": [
+                "criminalidad",
+                "Medell\u00edn",
+                "operatividad",
+                "Seguridad y convivencia"
+            ],
+            "landingPage": "http://medata.gov.co/dataset/conducci%C3%B3n-para-el-restablecimiento-de-derechos",
+            "language": [
+                "es-CO"
+            ],
+            "modified": "2023-08-06",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Seguridad"
+            },
+            "temporal": "2004-01-01T00:00:00-05:00/2018-10-24T00:00:00-05:00",
+            "isPartOf": "Municipal",
+            "theme": [
+                "Seguridad"
+            ],
+            "title": "Conducci\u00f3n para el restablecimiento de derechos"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "rights": "Secretar\u00eda de Seguridad y convivencia - Sistema de Informaci\u00f3n para la Seguridad y la Convivencia SISC",
+            "accrualPeriodicity": "irregular",
+            "contactPoint": {
+                "fn": "Secretar\u00eda de Seguridad y convivencia - Sistema de Informaci\u00f3n para la Seguridad y la Convivencia SISC",
+                "hasEmail": "mailto:medata@medellin.gov.co"
+            },
+            "conformsTo": "http://www.mintic.gov.co",
+            "description": "<p>Conductas asociadas al c\u00f3digo de Polic\u00eda.</p>\n",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "http://medata.gov.co/sites/default/files/medata_harvest_files/conducta_contraria_a_la_convivencia.csv",
+                    "mediaType": "text/csv",
+                    "format": "csv",
+                    "title": "Conducta contraria a la convivencia",
+                    "conformsTo": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                }
+            ],
+            "identifier": "23478",
+            "issued": "2018-06-01",
+            "keyword": [
+                "criminalidad",
+                "Medell\u00edn",
+                "operatividad",
+                "Seguridad y convivencia"
+            ],
+            "landingPage": "http://medata.gov.co/dataset/conducta-contraria-la-convivencia",
+            "language": [
+                "es-CO"
+            ],
+            "modified": "2023-08-06",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Seguridad"
+            },
+            "temporal": "2017-01-01T00:00:00-05:00/2018-10-24T00:00:00-05:00",
+            "isPartOf": "Municipal",
+            "theme": [
+                "Seguridad"
+            ],
+            "title": "Conducta contraria a la convivencia"
+        }}
