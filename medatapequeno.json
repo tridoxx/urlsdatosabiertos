@@ -110,7 +110,7 @@
             "distribution": [
                 {
                     "@type": "dcat:Distribution",
-                    "downloadURL": "http://medata.gov.co/sites/default/files/medata_harvest_files/conducta_contraria_a_la_convivencia.csv",
+                    "downloadURL": "https://raw.githubusercontent.com/tridoxx/urlsdatosabiertos/main/plan_municipal_indigena.csv",
                     "mediaType": "text/csv",
                     "format": "csv",
                     "title": "Conducta contraria a la convivencia",
